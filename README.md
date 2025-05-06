@@ -2,6 +2,7 @@ This project demonstrates essential data preprocessing techniques using a sample
 
 Dataset
 Airbnb NYC Listings
+
 https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data
 
 Tools & Libraries Used
@@ -17,20 +18,23 @@ Scikit-learn (sklearn) – For preprocessing techniques
 
 Steps Performed
 1. Data Loading
+
 Read the CSV file using pandas.read_csv().
 
-2. Data Understanding
+3. Data Understanding
+
 by cheking shape, categories, info etc.
 
 
-4. Data reduction
+5. Data reduction
+
 Removed useless columns
 
-5. Data cleaning
+7. Data cleaning
 Handle missing values
 drpo dupplicate values
 
-6. Used Seaborn and Matplotlib to visualize:
+8. Used Seaborn and Matplotlib to visualize:
 Distribution of features
 
 Correlations using heatmaps
@@ -40,6 +44,7 @@ Outliers using boxplots
 6. Removed Outliers
 
 7.  Feature Engineering & Transformation
+
 Applied encoding techniques (e.g., One-Hot Encoding or Label Encoding) for categorical variables.
 
 Applied scaling/normalization using StandardScaler or MinMaxScaler for numerical data.
