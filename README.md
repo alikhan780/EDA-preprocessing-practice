@@ -1,57 +1,64 @@
 This project demonstrates essential data preprocessing techniques using a sample CSV dataset. It is designed for learning and practice purposes to understand how raw data is prepared for further analysis or machine learning models.
 
-Dataset
+# Dataset
+
 Airbnb NYC Listings
 
 https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data
 
-Tools & Libraries Used
+# Tools & Libraries Used
+
 Python
 
-Pandas – For data manipulation
+Pandas. For data manipulation
 
-NumPy – For numerical operations
+NumPy. For numerical operations
 
-Matplotlib & Seaborn – For data visualization
+Matplotlib & Seaborn. For data visualization
 
-Scikit-learn (sklearn) – For preprocessing techniques
+Scikit-learn (sklearn). For preprocessing techniques
 
-Steps Performed
-1. Data Loading
+# Steps Performed
 
-Read the CSV file using pandas.read_csv().
+## 1. Data Loading
 
-3. Data Understanding
+   Read the CSV file using pandas.read_csv().
 
-by cheking shape, categories, info etc.
+## 2. Data Understanding
+
+   by cheking shape, categories, info etc.
 
 
-5. Data reduction
+## 3. Data reduction
 
-Removed useless columns
+   Removed useless columns
 
-7. Data cleaning
-Handle missing values
-drpo dupplicate values
+## 4. Data cleaning
 
-8. Used Seaborn and Matplotlib to visualize:
-Distribution of features
+   Handle missing values
+   drpo dupplicate values
 
-Correlations using heatmaps
+## 5. Used Seaborn and Matplotlib to visualize:
 
-Outliers using boxplots
+   Distribution of features
 
-6. Removed Outliers
+   Correlations using heatmaps
 
-7.  Feature Engineering & Transformation
+   Outliers using boxplots
 
-Applied encoding techniques (e.g., One-Hot Encoding or Label Encoding) for categorical variables.
+## 6. Removed Outliers
 
-Applied scaling/normalization using StandardScaler or MinMaxScaler for numerical data.
+## 7. Feature Engineering & Transformation
 
-8.  Output
-Final preprocessed data is ready for use in machine learning models or analysis.
+   Applied encoding techniques (e.g., One-Hot Encoding or Label Encoding) for categorical variables.
 
- Purpose
+   Applied scaling/normalization using StandardScaler or MinMaxScaler for numerical data.
+
+## 8.  Output
+ 
+   Final preprocessed data is ready for use in machine learning models or analysis.
+
+# Purpose
+
 This project was done for learning and practice only. It helps build a strong foundation in handling real-world data before applying machine learning algorithms.
 
